@@ -1,0 +1,219 @@
+body {
+    background-color: #85c803 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+
+.bratsummercontainer {
+    text-align: center;
+    margin-top: 400px;
+}
+
+#enterbutton {
+    display: flex;
+    background-color: white;
+    padding: 100x;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0%;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: crosshair;
+
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+
+    margin-top: 400px;
+}
+
+.unlockit {
+    text-align: center;
+    margin-top: 25px;
+   }
+
+   #unlock {
+    width: 400px;
+    height: auto;
+   }
+
+#nav-ul {
+    display: flex;
+    text-decoration: none;
+}
+
+#nav-ul > li {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+#nav-ul > li > a {
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+#nav1:hover {
+    background-color: #85c803;
+}
+
+#nav2:hover {
+    background-color: #0400ae;
+}
+
+#nav3:hover {
+    background-color: #FFFF00;
+}
+
+#nav4:hover {
+    background-color: #de0101;
+}
+
+/*PAGE1*/
+
+#page1 {
+    background-color: white;
+}
+
+    
+    .parent {
+        display: flex;
+        justify-content: flex-end; 
+        width: 100%;               
+        flex-wrap: wrap;           
+    }
+    
+    #page1title {
+        width: 100%;               
+        max-width: 400px;           
+    }
+    
+    #page1title img {
+        max-width: 100%;            
+        height: auto;               
+    }
+    
+    #greencharli {
+    width: 470px   
+}
+
+#album1 {
+    width: 470px;
+    height: auto;
+    margin-top: 30px;
+}
+
+#album2 {
+    width: 470px;
+    height: auto;
+    margin-top: 30px;
+}
+
+#album3 {
+    width: 470px;
+    height: auto;
+    margin-top: 130x;
+}
+
+
+
+
+
+.content-wrapper {
+    display: flex;               /* Creates a horizontal layout */
+    gap: 30px;                   /* Adds space between the image column and the article */
+    align-items: flex-start;
+}
+
+.image-column {
+    flex-basis: 50%;             /* Image column takes up 30% of the width */
+    display: flex;
+    flex-direction: column;      /* Stack images vertically */
+    gap: 30px;                   /* Adds space between the images */
+}
+
+.image-column img {
+    width: 100%;                 /* Make images responsive */
+    height: auto;                /* Maintain aspect ratio */
+}
+
+.article-content {
+    flex-basis: 70%;             /* Article content takes up 70% of the width */
+}
+
+.article-content {
+    font-family: 'arial narrow', Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: justify;
+    column-count: 2;          /* Creates 2 columns */
+    column-gap: 30px;         /* Space between columns */
+    align-items: flex-start;
+}
+
+.article-content p { 
+    margin-right: 90px;            /* Remove default margin to better control spacing */
+}
+
+
+#album1, #inline-paragraph {
+    display: inline-block;         /* Allow them to sit next to each other */
+    vertical-align: top;           /* Aligns the top edges */
+    margin-right: 20px;            /* Space between image and paragraph */
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PAGE2*/
+
+#page2 {
+    background-color: white;
+}
+
+/*PAGE3*/
+
+#page3 {
+    background-color: white;
+}
+
+/*PAGE4*/
+
+#page4 {
+    background-color: #0400ae;
+}
+
+
+
+
+
+
+
+
+
+
+
+
